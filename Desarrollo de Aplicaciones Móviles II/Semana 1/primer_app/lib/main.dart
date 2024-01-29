@@ -106,15 +106,12 @@ class _MyHomePageState extends State<MyHomePage> {
           mainAxisAlignment: MainAxisAlignment.center,
           children: <Widget>[
             const Text(
-              'Has Precionado el botón:', style: TextStyle(
-                fontFamily: 'ComicNeue', color: Colors.blue,
-              ),
+              'You have pushed the button this many times:',
             ),
             Text(
               '$_counter',
               style: Theme.of(context).textTheme.headlineMedium,
             ),
-            Image.asset('images/logo.jpg'),
           ],
         ),
       ),
