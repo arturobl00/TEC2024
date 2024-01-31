@@ -1,0 +1,111 @@
+				<html xmlns:o="urn:schemas-microsoft-com:office:office"
+				xmlns:x="urn:schemas-microsoft-com:office:excel"
+				xmlns="http://www.w3.org/TR/REC-html40">
+
+				<head>
+				<meta http-equiv=Content-Type content="text/html; charset=us-ascii">
+				<meta name=ProgId content=Excel.Sheet>
+				<!--[if gte mso 9]><xml>
+				 <o:DocumentProperties>
+				  <o:LastAuthor>Mario Alberto Herrera Quintana</o:LastAuthor>
+				  <o:LastSaved>2005-01-02T07:46:23Z</o:LastSaved>
+				  <o:Version>10.2625</o:Version>
+				 </o:DocumentProperties>
+				 <o:OfficeDocumentSettings>
+				  <o:DownloadComponents/>
+				 </o:OfficeDocumentSettings>
+				</xml><![endif]-->
+				<style>
+				<!--table
+					{mso-displayed-decimal-separator:"\.";
+					mso-displayed-thousand-separator:"\,";}
+				@page
+					{margin:1.0in .75in 1.0in .75in;
+					mso-header-margin:.5in;
+					mso-footer-margin:.5in;}
+				tr
+					{mso-height-source:auto;}
+				col
+					{mso-width-source:auto;}
+				br
+					{mso-data-placement:same-cell;}
+				.style0
+					{mso-number-format:General;
+					text-align:general;
+					vertical-align:bottom;
+					white-space:nowrap;
+					mso-rotate:0;
+					mso-background-source:auto;
+					mso-pattern:auto;
+					color:windowtext;
+					font-size:10.0pt;
+					font-weight:400;
+					font-style:normal;
+					text-decoration:none;
+					font-family:Arial;
+					mso-generic-font-family:auto;
+					mso-font-charset:0;
+					border:none;
+					mso-protection:locked visible;
+					mso-style-name:Normal;
+					mso-style-id:0;}
+				td
+					{mso-style-parent:style0;
+					padding-top:1px;
+					padding-right:1px;
+					padding-left:1px;
+					mso-ignore:padding;
+					color:windowtext;
+					font-size:10.0pt;
+					font-weight:400;
+					font-style:normal;
+					text-decoration:none;
+					font-family:Arial;
+					mso-generic-font-family:auto;
+					mso-font-charset:0;
+					mso-number-format:General;
+					text-align:general;
+					vertical-align:bottom;
+					border:none;
+					mso-background-source:auto;
+					mso-pattern:auto;
+					mso-protection:locked visible;
+					white-space:nowrap;
+					mso-rotate:0;}
+				.xl24
+					{mso-style-parent:style0;
+					white-space:normal;}
+				-->
+				</style>
+				<!--[if gte mso 9]><xml>
+				 <x:ExcelWorkbook>
+				  <x:ExcelWorksheets>
+				   <x:ExcelWorksheet>
+					<x:Name>Mario</x:Name>
+					<x:WorksheetOptions>
+					 <x:Selected/>
+					 <x:ProtectContents>False</x:ProtectContents>
+					 <x:ProtectObjects>False</x:ProtectObjects>
+					 <x:ProtectScenarios>False</x:ProtectScenarios>
+					</x:WorksheetOptions>
+				   </x:ExcelWorksheet>
+				  </x:ExcelWorksheets>
+				  <x:WindowHeight>10005</x:WindowHeight>
+				  <x:WindowWidth>10005</x:WindowWidth>
+				  <x:WindowTopX>120</x:WindowTopX>
+				  <x:WindowTopY>135</x:WindowTopY>
+				  <x:ProtectStructure>False</x:ProtectStructure>
+				  <x:ProtectWindows>False</x:ProtectWindows>
+				 </x:ExcelWorkbook>
+				</xml><![endif]-->
+				</head>
+
+				<body link=blue vlink=purple>
+				<table x:str border=0 cellpadding=0 cellspacing=0 style='border-collapse: collapse;table-layout:fixed;'><tr><td class=xl24 width=64 >No de Control</td><td class=xl24 width=64 >Nombre Completo</td><td class=xl24 width=64 >Carrera</td></tr><tr><td class=xl24 width=64 >23220001  </td><td class=xl24 width=64 >ATILANO GUZMAN ADAIR</td><td class=xl24 width=64 >INGENIERIA EN SISTEMAS COMPUTACIONALES</td></tr><tr><td class=xl24 width=64 >20120066  </td><td class=xl24 width=64 >BARBOSA MARTINEZ JUAN CARLOS</td><td class=xl24 width=64 >INGENIERIA EN SISTEMAS COMPUTACIONALES</td></tr><tr><td class=xl24 width=64 >21120071  </td><td class=xl24 width=64 >CARRERA ALVA RODRIGO</td><td class=xl24 width=64 >INGENIERIA EN SISTEMAS COMPUTACIONALES</td></tr><tr><td class=xl24 width=64 >19120104  </td><td class=xl24 width=64 >CORNELIO EVANGELISTA GRETEL GUADALUPE</td><td class=xl24 width=64 >INGENIERIA EN SISTEMAS COMPUTACIONALES</td></tr><tr><td class=xl24 width=64 >21120091  </td><td class=xl24 width=64 >DE JESUS HERNANDEZ BEATRIZ</td><td class=xl24 width=64 >INGENIERIA EN SISTEMAS COMPUTACIONALES</td></tr><tr><td class=xl24 width=64 >21120082  </td><td class=xl24 width=64 >HERNANDEZ DE SANTIAGO MONTSERRAT</td><td class=xl24 width=64 >INGENIERIA EN SISTEMAS COMPUTACIONALES</td></tr><tr><td class=xl24 width=64 >21120086  </td><td class=xl24 width=64 >MARTINEZ LOPEZ HARRY</td><td class=xl24 width=64 >INGENIERIA EN SISTEMAS COMPUTACIONALES</td></tr><tr><td class=xl24 width=64 >21120077  </td><td class=xl24 width=64 >MENDOZA ESCOBEDO RICARDO ADOLFO</td><td class=xl24 width=64 >INGENIERIA EN SISTEMAS COMPUTACIONALES</td></tr><tr><td class=xl24 width=64 >22220001  </td><td class=xl24 width=64 >MORENO REYNA MARIO IVAN</td><td class=xl24 width=64 >INGENIERIA EN SISTEMAS COMPUTACIONALES</td></tr><tr><td class=xl24 width=64 >20120073  </td><td class=xl24 width=64 >PACHECO ALBERTO ABRAHAM YAHIR</td><td class=xl24 width=64 >INGENIERIA EN SISTEMAS COMPUTACIONALES</td></tr><tr><td class=xl24 width=64 >21120080  </td><td class=xl24 width=64 >PALANTOC ZACARIAS ADOLFO ANGEL</td><td class=xl24 width=64 >INGENIERIA EN SISTEMAS COMPUTACIONALES</td></tr><tr><td class=xl24 width=64 >21120074  </td><td class=xl24 width=64 >RIVERA HERNANDEZ ESTEFANY LIZETH</td><td class=xl24 width=64 >INGENIERIA EN SISTEMAS COMPUTACIONALES</td></tr><tr><td class=xl24 width=64 >21120078  </td><td class=xl24 width=64 >TORRES VICARIO JOSE JUAN</td><td class=xl24 width=64 >INGENIERIA EN SISTEMAS COMPUTACIONALES</td></tr><tr><td class=xl24 width=64 >19120098  </td><td class=xl24 width=64 >VALERIO SANDOVAL JAEL OMAR</td><td class=xl24 width=64 >INGENIERIA EN SISTEMAS COMPUTACIONALES</td></tr><tr><td class=xl24 width=64 >23220003  </td><td class=xl24 width=64 >VARGAS ESPINOZA JAIR ALI</td><td class=xl24 width=64 >INGENIERIA EN SISTEMAS COMPUTACIONALES</td></tr><tr><td class=xl24 width=64 >22120196  </td><td class=xl24 width=64 >VILLA MENDEZ LUIS ANTONIO</td><td class=xl24 width=64 >INGENIERIA EN SISTEMAS COMPUTACIONALES</td></tr></table></body></html><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="">
+<head>
+<!--<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />-->
+<title>Error al Descarregar el archivo3U6.xls</title></head>
+<body><p>No se ha podido descargar el listado, comuniquese con el Administrador</p>
+</body>
+</html>
