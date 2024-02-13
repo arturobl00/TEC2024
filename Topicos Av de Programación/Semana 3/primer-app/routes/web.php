@@ -38,6 +38,13 @@ Route::middleware('auth')->group(function () {
         return view('chirps');
     })->name('chirps.index');
 
+    Route::post('/chirps', function(){
+        $num1 = request('num1');
+        $num2 = request('num2');
+        $num1 = $num1 + $num2;
+        return 'la suma de los numeros es: '. $num1;
+    });
+
 });
 
 require __DIR__.'/auth.php';

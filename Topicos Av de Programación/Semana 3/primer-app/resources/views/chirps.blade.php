@@ -11,10 +11,13 @@
                 <div class="p-6 text-gray-900 dark:text-gray-100">
                     Bienvenidos a la pagina Chirps
                 </div>
-                <form>
-                    <textarea class="bg-gray-800 text-white border
-                     border-gray-700 p-2 w-full h-24"></textarea>
-                    <button>Enviar</button>
+                <form method="post">
+                    @csrf
+                    <textarea class="bg-gray-800 text-white border border-gray-700 p-5 w-full h-24" name="num1"></textarea>
+                    <br>
+                    <textarea class="bg-gray-800 text-white border border-gray-700 p-5 w-full h-24" name="num2"></textarea>
+                    <br>
+                    <x-primary-button>Enviar</x-primary-button>
                 </form>
             </div>
         </div>
