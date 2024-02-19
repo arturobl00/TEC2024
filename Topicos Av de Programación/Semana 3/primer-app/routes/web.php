@@ -2,6 +2,8 @@
 
 use App\Http\Controllers\ProfileController;
 use Illuminate\Support\Facades\Route;
+use App\Models\Chirp;
+use App\Models\User;
 
 /*
 |--------------------------------------------------------------------------
@@ -39,10 +41,15 @@ Route::middleware('auth')->group(function () {
     })->name('chirps.index');
 
     Route::post('/chirps', function(){
-        $num1 = request('num1');
-        $num2 = request('num2');
-        $num1 = $num1 + $num2;
-        return 'la suma de los numeros es: '. $num1;
+        //Insertar en la base de datos
+        Chirp::create([
+            'asunto' => request('asunto'),
+            'mensaje' => request('mensaje'),
+            'user_id' => auth()->id(),
+        ]);
+
+        return to_route('chirps.index');
+
     });
 
 });

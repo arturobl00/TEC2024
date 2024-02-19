@@ -71,3 +71,32 @@ td
 	border-right:.5pt solid windowtext;
 	border-bottom:.5pt solid windowtext;
 	border-left:none;}
+.xl69
+	{mso-style-parent:style0;
+	mso-number-format:"dd\\-mmm";
+	border:.5pt solid windowtext;}
+.xl70
+	{mso-style-parent:style0;
+	border:.5pt solid windowtext;}
+.xl71
+	{mso-style-parent:style0;
+	border-top:none;
+	border-right:.5pt solid windowtext;
+	border-bottom:.5pt solid windowtext;
+	border-left:.5pt solid windowtext;
+	background:yellow;
+	mso-pattern:black none;
+	white-space:normal;}
+.xl72
+	{mso-style-parent:style0;
+	border-top:none;
+	border-right:.5pt solid windowtext;
+	border-bottom:.5pt solid windowtext;
+	border-left:none;
+	background:yellow;
+	mso-pattern:black none;}
+.xl73
+	{mso-style-parent:style0;
+	border:.5pt solid windowtext;
+	background:yellow;
+	mso-pattern:black none;}

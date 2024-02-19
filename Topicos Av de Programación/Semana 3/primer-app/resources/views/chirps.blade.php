@@ -13,9 +13,10 @@
                 </div>
                 <form method="post">
                     @csrf
-                    <textarea class="bg-gray-800 text-white border border-gray-700 p-5 w-full h-24" name="num1"></textarea>
+                    <input class="bg-gray-800 text-white border border-gray-700 p-5 w-full h-24" name="asunto" type="text"/>
                     <br>
-                    <textarea class="bg-gray-800 text-white border border-gray-700 p-5 w-full h-24" name="num2"></textarea>
+                    <br>
+                    <textarea class="bg-gray-800 text-white border border-gray-700 p-5 w-full h-24" name="mensaje"></textarea>
                     <br>
                     <x-primary-button>Enviar</x-primary-button>
                 </form>

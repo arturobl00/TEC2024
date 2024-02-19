@@ -4,9 +4,9 @@ import cv2
 import numpy as np
 
 #Declarar arreglo de color con np
-colorinicio = np.array([110,100,20], np.uint8)
+colorinicio = np.array([150,100,20], np.uint8)
 #                       H  S  V
-colorfinal = np.array([130,255,255], np.uint8)
+colorfinal = np.array([169,255,255], np.uint8)
 
 #Activar la camara
 cap = cv2.VideoCapture(0)
