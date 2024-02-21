@@ -21,9 +21,16 @@ cv2.rectangle(imagen,(50,50),(250,150),(0,255,0),-1)
 cv2.circle(imagen,(450,100), 80, (0,0,255), 1)
 
 #Dibujar una elipce
-cv2.ellipse(imagen,(150,300),(90,90),0,180,90,200,-1)
+##              pos  x  y     diametro 
+cv2.ellipse(imagen,(150,300),(80,80),0,270,90,400,-1)
+
+
+#Dibujar Texto
+#           lienzo texto    pos x y   fuente tamaño color grosor
+cv2.putText(imagen,'OpenCV',(320,300), 5, 3,(0,255,0),1)
 
 #Mostrar imagen
 cv2.imshow("Dibujo", imagen)
 cv2.waitKey()
 cv2.destroyAllWindows()
+
