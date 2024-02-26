@@ -5,7 +5,7 @@ detectaRostro = cv2.CascadeClassifier('haarcascade_frontalface_default.xml')
 detectasonrisa = cv2.CascadeClassifier('haarcascade_smile.xml')
 
 #Captura de video
-cap = cv2.VideoCapture(1)
+cap = cv2.VideoCapture(0)
 
 while True:
     ret, frame = cap.read()
