@@ -5,7 +5,7 @@ import numpy as np
 detectorRostros = cv2.CascadeClassifier('haarcascade_frontalface_default.xml')
 
 #Captura de video
-cap = cv2.VideoCapture(0)
+cap = cv2.VideoCapture(1)
 
 while True:
     ret, frame = cap.read()
