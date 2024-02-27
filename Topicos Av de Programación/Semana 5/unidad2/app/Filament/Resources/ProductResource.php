@@ -24,6 +24,33 @@ class ProductResource extends Resource
         return $form
             ->schema([
                 //
+                Forms\Components\TextInput::make('name')
+                ->required()
+                ->maxLength(255),
+                Forms\Components\TextInput::make('price')
+                ->numeric()
+                ->required(),
+                Forms\Components\TextInput::make('stock')
+                ->numeric()
+                ->required(),
+                //Vamos a hacer una lista desplegable esta abre una tabla
+                //y toma los datos de esa tabla para mostrar en una lista
+                //el truco esta en la propiedad relationship se coloca el
+                //nombre de la migration y el campo
+                Forms\Components\Select::make('category_id')
+                ->relationship('categories', 'name')
+                ->searchable()
+                ->preload()
+                //Anexamos el modal este servira para crear un formulario
+                //adicional que me permita crear categorias que aun no esten
+                //registradas optimizando el tiempo
+                //el truco esta en la propiedad createOptionForm
+                ->createOptionForm([
+                    Forms\Components\TextInput::make('name')
+                    ->required()
+                    ->label('Category Name')
+                ])
+                ->required()
             ]);
     }
 
@@ -32,6 +59,14 @@ class ProductResource extends Resource
         return $table
             ->columns([
                 //
+                Tables\Columns\TextColumn::make('name')
+                ->label('Product Name')
+                ->searchable()
+                ->sortable(),
+                Tables\Columns\TextColumn::make('price'),
+                Tables\Columns\TextColumn::make('stock'),
+                Tables\Columns\TextColumn::make('category_id')
+                ->label('Category Name'),
             ])
             ->filters([
                 //
