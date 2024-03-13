@@ -37,7 +37,8 @@ class TreatmentsRelationManager extends RelationManager
             ->recordTitleAttribute('description')
             ->columns([
                 TextColumn::make('description')->label('Description'),
-                TextColumn::make('created_at')->label('Create'),
+                TextColumn::make('created_at')->label('Create')->sortable(),
+                TextColumn::make('patient_id')->label('Enable')->badge(),
             ])
             ->filters([
                 //

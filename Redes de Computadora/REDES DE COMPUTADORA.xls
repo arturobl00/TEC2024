@@ -308,8 +308,8 @@ function fnSetActiveSheet(iSh)
    </x:ExcelWorksheet>
   </x:ExcelWorksheets>
   <x:Stylesheet HRef="REDES%20DE%20COMPUTADORA.files/stylesheet.css"/>
-  <x:WindowHeight>8676</x:WindowHeight>
-  <x:WindowWidth>23040</x:WindowWidth>
+  <x:WindowHeight>7545</x:WindowHeight>
+  <x:WindowWidth>21360</x:WindowWidth>
   <x:WindowTopX>32767</x:WindowTopX>
   <x:WindowTopY>32767</x:WindowTopY>
   <x:ActiveSheet>1</x:ActiveSheet>
