@@ -32,7 +32,7 @@ with mp_hands.Hands(
         if result.multi_hand_landmarks is not None:
         #Si tenemos informacion entonces con un form recorremos los datos y dibujamos
         #Esto es opcional y solo para personalizar la ubicación de los puntos checa documentación para puntos
-            index = [20]
+            index = [8,7,6,5]
             for hand_landmarks in result.multi_hand_landmarks:
                 #Dibujar los 21 puntos de deteccion
                 #mp_drawing.draw_landmarks(
